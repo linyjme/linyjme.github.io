@@ -3,15 +3,34 @@ layout: page
 title: 关于我 
 ---
 
-一个工作3年的 前后端 开发者，目前在一家公司做机器学习。
+我并不是计算机专业的学习，本科学的是自动机。
 
-除了前后端，机器学习，我还一直维护着这个博客。
+本科实习的是一家硬件公司，后来毕业后转入了嵌入式软件开发
 
-平时喜欢用python写一些工具，能用工具做的事情坚决不用人工去操作。
+一个工作4年的 前后端 开发者，目前在一家公司做机器学习相关的工作。
 
-<h2> 我们的博客 </h2>  
+入门的第一语言是C语言，之后陆续有用过，python，node.js, java ,vue, nuxt 等 
 
-这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+除了工作之外，我还一直维护着这个博客，平时喜欢捣鼓一些东西。
+
+<h2> 我的技术栈 </h2>  
+
+后端：
+    python java node
+前端：
+    javascript vue nuxt
+web框架：
+    spring springboot django flask
+科学计算：
+    numpy pandas
+机器学习算法：
+    knn RandomForest scikit-learn
+深度学习框架：
+    pytorch caffe
+
+<h2> 我的博客 </h2>  
+
+这个博客是也是借鉴了一位 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io'>大佬</a> 的模板，在他的基础上魔改，我也很高兴大家使用我的模板。
 
 如果你想搭建一个跟我一样的博客，可以看我的 
 <a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
