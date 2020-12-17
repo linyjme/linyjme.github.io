@@ -13,17 +13,17 @@ enableToc: true
 
 # Comment
 comment:
-    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: leopard
+    livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+    # disqus: leopard
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
-    weibo: 164770200 
+    weibo: 1017861705
     github: linyjme
-    # zhihu: panpanleopard
+    zhihu: nu-li-nu-li-zai-nu-li-96-51
     # juejin: xxx
-    jianshu: 2ada30d8d0f7
+    # jianshu: 2ada30d8d0f7
     # twitter: 
     mail: linyj_work@163.com
 
@@ -35,9 +35,9 @@ baidu:
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-84134159-3  
-    host: auto  
+# ga:
+#     id: UA-84134159-3  
+#     host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
@@ -67,7 +67,7 @@ blog_button:
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 技术支持, description: support, url: '/support'}      
+    # - {title: 技术支持, description: support, url: '/support'}      
     - {title: 关于我, description: about, url: '/about'}   
     
 
