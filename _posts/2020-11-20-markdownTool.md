@@ -58,7 +58,7 @@ css 的大部分语法同样可以在 markdown 上使用，但不同的渲染器
 
 ### 2. 高亮一段代码
 
-```python
+```python3
 
 @requires_authorization
 class SomeClass:
@@ -66,7 +66,7 @@ class SomeClass:
 
 if __name__ == '__main__':
     # A comment
-    print 'hello world'
+    print('hello world')
 
 ```
 
