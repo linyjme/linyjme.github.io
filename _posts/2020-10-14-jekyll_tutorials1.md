@@ -13,7 +13,6 @@ tags: jekyll
  　Jekyll 是一个简单的博客形态的静态站点生产机器。它有一个模版目录，其中包含原始文本格式的文档，通过 Markdown （或者 Textile） 以及 Liquid 转化成一个完整的可发布的静态网站，你可以发布在任何你喜爱的服务器上。Jekyll 也可以运行在 GitHub Page 上，也就是说，你可以使用 GitHub 的服务来搭建你的项目页面、博客或者网站，而且是完全免费的
 
 　使用 Jekyll 搭建博客之前要确认下本机环境，Git 环境（用于部署到远端）、[Ruby](http://www.ruby-lang.org/en/downloads/) 环境（Jekyll 是基于 Ruby 开发的）、包管理器 [RubyGems](http://rubygems.org/pages/download)                
-　　如果你是 Mac 用户，你就需要安装 Xcode 和 Command-Line Tools了。下载方式 Preferences → Downloads → Components。
 
 　　Jekyll 是一个免费的简单静态网页生成工具，可以配合第三方服务例如： Disqus（评论）、多说(评论) 以及分享 等等扩展功能，Jekyll 可以直接部署在 Github（国外） 或 Coding（国内） 上，可以绑定自己的域名。[Jekyll中文文档](http://jekyll.bootcss.com/)、[Jekyll英文文档](https://jekyllrb.com/)、[Jekyll主题列表](http://jekyllthemes.org/)。
 
@@ -46,8 +45,6 @@ $ jekyll serve
 
 在浏览器里输入： [http://localhost:4000](http://localhost:4000)，就可以看到你的博客效果了。
 
-![](/images/posts/jekyll/image1.png)
-
 so easy !
 
 ### 目录结构
@@ -67,7 +64,7 @@ so easy !
 |   ├── post.html
 |   └── page.html
 ├── _posts
-|   └── 2016-10-08-welcome-to-jekyll.markdown
+|   └── 2020-10-08-welcome-to-jekyll.markdown
 ├── _sass
 |   ├── _base.scss
 |   ├── _layout.scss
@@ -95,7 +92,7 @@ so easy !
 
 　　所有的文章都是 _posts 目录下面，文章格式为 mardown 格式，文章文件名可以是 .mardown 或者 .md。
 
-　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 `2016-10-16-welcome-to-jekyll副本.markdown` ，修改名字为 2016-10-16-article1.markdown ，注意：文章名的格式前面必须为 2016-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://llinyjme.github.io/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2020-10-16-article1.markdown 打开
+　　编写一篇新文章很简单，你可以直接从 _posts/ 目录下复制一份出来 `2020-10-16-welcome-to-jekyll副本.markdown` ，修改名字为 2020-10-16-article1.markdown ，注意：文章名的格式前面必须为 2020-10-16- ，日期可以修改，但必须为 年-月-日- 格式，后面的 article1 是整个文章的连接 URL，如果文章名为中文，那么文章的连接URL就会变成这样的：http://llinyjme.github.io/2015/08/%E6%90%AD%E5/ ， 所以建议文章名最好是英文的或者阿拉伯数字。 双击 2020-10-16-article1.markdown 打开
 
 ```
 
@@ -117,143 +114,15 @@ categories: tag标签的分类，如：categories: 随笔
 
 注意：文章头部格式必须为上面的，.... 就是文章的正文内容。
 
-我写文章使用的是 Sublime Text2 编辑器，如果你对 markdown 语法不熟悉的话，可以看看[作业部落的教程](https://www.zybuluo.com/) 
+我写文章使用的是 vscode 编辑器，如果你对 markdown 语法不熟悉的话，可以看看[作业部落的教程](https://www.zybuluo.com/) 
 
 
 ### 使用我的博客模板
 
 虽然博客部署完成了，你会发现博客太简单不是你想要的，如果你喜欢我的模板的话，可以使用我的模板。
 
-首先你要获取的我博客，[Github项目地址](https://github.com/linyjme/linyjme.github.io.git)，你可以直接[点击下载博客](https://github.com/linyj/linyjme.github.io/archive/master.zip)，进去leopardpan.github.io/ 目录下， 使用命令部署本地服务 
+首先你要获取的我博客，[Github项目地址](https://github.com/linyjme/linyjme.github.io.git)，你可以直接[点击下载博客](https://github.com/linyj/linyjme.github.io/archive/master.zip)，进去linyjme.github.io/ 目录下， 使用命令部署本地服务 
 
-```
-$ jekyll server   
-```
-
-### 如果你本机没配置过任何jekyll的环境，可能会报错
-
-```
-/Users/xxxxxxxx/.rvm/rubies/ruby-2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- bundler (LoadError)
-	from /Users/xxxxxxxx/.rvm/rubies/ruby-2.2.2/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/gems/jekyll-3.3.0/lib/jekyll/plugin_manager.rb:34:in `require_from_bundler'
-	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/gems/jekyll-3.3.0/exe/jekyll:9:in `<top (required)>'
-	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/jekyll:23:in `load'
-	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/jekyll:23:in `<main>'
-	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `eval'
-	from /Users/xxxxxxxx/.rvm/gems/ruby-2.2.2/bin/ruby_executable_hooks:15:in `<main>'
-
-```
-
-原因： 没有安装 bundler ，执行安装 bundler 命令
-
-```
-
-$ gem install bundler
-
-```
-
-
-提示： 
-
-```
-Fetching: bundler-1.13.5.gem (100%)
-Successfully installed bundler-1.13.5
-Parsing documentation for bundler-1.13.5
-Installing ri documentation for bundler-1.13.5
-Done installing documentation for bundler after 5 seconds
-1 gem installed
-
-```
-
-再次执行 $ jekyll server  ，提示
-
-```
-
-Could not find proper version of jekyll (3.1.1) in any of the sources
-Run `bundle install` to install missing gems.
-
-```
-
-跟着提示运行命令
-
-```
-$ bundle install
-```
-
-这个时候你可能会发现 bundle install 运行卡主不动了。
-
-如果很长时间都没任何提示的话，你可以尝试修改 gem 的 source
-
-```
-$ gem sources --remove https://rubygems.org/
-$ gem sources -a http://ruby.taobao.org/
-$ gem sources -l
-*** CURRENT SOURCES ***
-
-http://ruby.taobao.org
-
-```
-
-再次执行命令 $ bundle install，发现开始有动静了
-
-```
-Fetching gem metadata from https://rubygems.org/...........
-Fetching version metadata from https://rubygems.org/..
-Fetching dependency metadata from https://rubygems.org/.
-。。。
-Installing jekyll-watch 1.3.1
-Installing jekyll 3.1.1
-Bundle complete! 3 Gemfile dependencies, 17 gems now installed.
-Use `bundle show [gemname]` to see where a bundled gem is installed.
-
-```
-
-bundler安装完成，后再次启动本地服务 
-
-```
-$ jekyll server
-
-```
-
-继续报错
-
-```
-Configuration file: /Users/tendcloud-Caroline/Desktop/leopardpan.github.io/_config.yml
-  Dependency Error: Yikes! It looks like you don't have jekyll-sitemap or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-sitemap' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
-jekyll 3.1.1 | Error:  jekyll-sitemap
-
-```
-表示 当前的 jekyll 版本是 3.1.1 ，无法使用 jekyll-sitemap 
-
-解决方法有两个
-
-> 1、打开当前目录下的 _config.yml 文件，把 gems: [jekyll-paginate,jekyll-sitemap] 换成 gems: [jekyll-paginate] ，也就是去掉jekyll-sitemap。
-
-> 2、升级 jekyll 版本，我当前的是 jekyll 3.1.2 。
-
-修改完成后保存配置，再次执行
-
-```
-$ jekyll server
-
-```
-提示
-
-```
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
-            Source: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github
-       Destination: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_site
- Incremental build: disabled. Enable with --incremental
-      Generating... 
-                    done in 0.901 seconds.
- Auto-regeneration: enabled for '/Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github'
-Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpan.github.io-github/_config.yml
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
-
-```
-
-表示本地服务部署成功。
 
 在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
 
@@ -270,8 +139,6 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/leopardpa
 使用了 Jekyll 你会发现如果你想使用多台电脑发博客都很方便，只要把远端 github 仓库里的博客 clone 下来，写文章后再提交就可以了
 
 如果你在搭建博客遇到问题，可以在评论里给我提问。
-
-后面会继续介绍，在我的博客基础上，如何修改成你自己喜欢的 Style，欢迎继续关注我博客的更新。
 
 
 
