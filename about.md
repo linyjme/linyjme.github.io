@@ -17,19 +17,19 @@ title: 关于我
 
 <h2> 我的技术栈 </h2>  
 
--后端 技能树：
+- 后端 技能树：
   使用的比较多的是Python，Django/Flask 的 web 框架，rest api等，流行的不流行的第三方库吧；
   其次就是node.js，因为项目要维护，开发团队微服务情况下，各自技术栈不尽相同，有时候需求来了不得不自己搞了；
   c/c++ 是我入门的语言，基于stm32，做过嵌入式传感器测量的项目，现在已经忘得差不多了...
   最近自学java，spring，springboot的demo学习。
 
--Linux 技能树：
+- Linux 技能树：
   云服务部署及运维、常用 shell 命令及脚本编写吧，还有就是一些数据清洗。
 
--前端 技能树：
+- 前端 技能树：
   写过 vue 项目，了解基本用法；熟悉 HTML 基本规范，对 CSS 常规用法了解，JavaScript 主要使用 jQuery 库，还有多少了解点react，angular框架，前端 SEO
 
--机器学习算法：
+- 机器学习算法：
   在公司，有过时序异常检测相关的项目，对numpy，pandas 科学计算有点了解了，一些大数据处理，如dask，cudf；
   涉及到的业务，业务场景，如knn RandomForest scikit-learn使用也熟悉。
 
